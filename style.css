@@ -1,0 +1,108 @@
+body {
+    min-height: 100vh;
+}
+
+.alt-image {
+    width: 1000px;
+}
+
+@media only screen and (max-width: 600px) {
+    .footer {
+        position: relative !important;
+    }
+}
+
+.forgotleftside {
+    position: relative;
+    margin: auto;
+}
+
+.forgotleftside::before {
+    position: absolute;
+    content: "";
+    background: url(https://cdn.forie.com/storage/general/login/forget-password-before-bg.png);
+    width: 650px;
+    height: 386px;
+    right: 198px;
+    top: 52px;
+    background-repeat: no-repeat;
+}
+
+.forgotleftside .article1 {
+    max-width: 360px;
+    min-height: 250px;
+    display: block;
+    padding: 32px;
+    background: #F8D8FE;
+    text-align: end;
+    position: relative;
+}
+.forgotleftside .article1::before {
+    position: absolute;
+    content: "";
+    width: 8px;
+    height: 32px;
+    right: -8px;
+    top: 0px;
+    background: #6E5675;
+}
+.forgotleftside article strong {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 0.25px;
+    color: #000;
+    margin-bottom: 16px;
+    display: block;
+}
+.forgotleftside article span {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    color: #000000;
+    display: block;
+}
+.forgotleftside .article2 { 
+    max-width: 360px;
+    min-height: 250px;
+    background: #D4E3FF;
+    text-align: left;
+    margin-top: -25px;
+    position: relative;
+    margin-left: 96px;
+}
+.forgotleftside .article2::after{
+    position: absolute;
+    content: "";
+    width: 8px;
+    height: 32px;
+    left: -8px;
+    bottom: 0px;
+    background: #005EB5;
+}
+.forgotleftside .article strong {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 0.25px;
+    color: #000;
+    margin-bottom: 16px;
+    display: block;
+}
+.forgotleftside.article span {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    color: #000000;
+    display: block;
+}
